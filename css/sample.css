@@ -58,6 +58,7 @@ article p {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
   margin: 2rem;
+  margin-top: 0;
   font-weight: 500;
 }
 .backBtn:hover {
