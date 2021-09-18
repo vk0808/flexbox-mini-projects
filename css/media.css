@@ -1,0 +1,30 @@
+.media {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0;
+  background-color: #f1f0f2;
+}
+.media-object {
+  margin-right: 1em;
+  width: 30vw;
+}
+.media-body {
+  flex: 1;
+  margin: 1rem;
+}
+.media-heading {
+  margin: 0 0 0.5em;
+}
+.media-body p {
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 526px) {
+  .media {
+    flex-direction: column;
+  }
+  .media-object {
+    width: 100%;
+  }
+}
