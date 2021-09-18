@@ -51,17 +51,16 @@ body {
 .backBtn {
   cursor: pointer;
   padding: 1rem;
-  background-color: #3a86ff;
+  background-color: rgba(135, 206, 250, 0.8);
   border: none;
   border-radius: 2rem;
   width: max-content;
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
   margin: 2rem;
   margin-top: 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 .backBtn:hover {
-  background-color: rgba(58, 134, 255, 0.8);
-  color: rgb(0, 0, 0);
+  background-color: rgba(135, 206, 250, 1);
 }
