@@ -32,13 +32,13 @@ body {
   text-align: left;
   background: #ffd6a5;
 }
-article {
+.mainContentItem article {
   padding: 0.5rem 2rem;
   margin: 10px;
   background: #fdffb6;
   letter-spacing: 1px;
 }
-article p {
+.mainContentItem article p {
   color: #4a4e69;
 }
 .headerContainer,
